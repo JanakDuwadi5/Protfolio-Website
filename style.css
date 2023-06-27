@@ -54,6 +54,7 @@ h3
 {
     background-color: #66BFBF;
     padding:50px 0 20px;
+    margin-bottom: 0px;
 }
 p
 {
@@ -62,7 +63,7 @@ p
 skill-row
 {
     width: 50px;
-    margin: 100px auto 100px auto;
+    margin: 10px auto 10px auto;
     text-align: left;
     
 }
@@ -70,12 +71,14 @@ skill-row
 {   width: 10%;
     clear: left;
     margin-left: 5px;
-
+    
+    
 }
 .skill-2
 {   width: 10%;
     clear:right;
     padding-top: 30px;
+    
     
 }
 .btn {
@@ -90,9 +93,10 @@ skill-row
     border-radius: 8px;
     font-family: 'Montserrat',sans-serif;
     color: #ffffff;
-    font-size: 17px;
-    padding: 10px 20px 10px 20px;
+    font-size: 10px;
+    padding: 5px 5px 5px 5px;
     text-decoration: none;
+    display: inline;
   }
   
   .btn:hover {
@@ -113,10 +117,10 @@ skill-row
     width: 5%;
     border-width: 5px;
   }
-  .contact-message
+  .contact-me
   {
     width: 40%;
-    margin: 40px auto 60px;
+    margin: 40px auto 100px;
   }
   a
   {
@@ -152,17 +156,25 @@ skill-row
     text-align: center;
     margin-top: 50x;
     margin-bottom: 45px;
-    padding-left: 500px;
-    padding-right: 500px;
+    /* padding-left: 500px; */
+    /* padding-right: 500px; */
     font-family: 'Merriweather',serif;
     color: #40514E;
     border-collapse: separate;
     border-spacing: 0 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     
 
 }
 td
 {
-  text-align: center;
-  padding: 9px;
+  margin-left:auto; 
+  margin-right:auto;
+  padding: 5px;
+  height: 3vh;
+  
+  
 }
