@@ -176,3 +176,22 @@ td
   
   
 }
+.me-auto
+{
+  list-style: none;
+}
+.d-flex
+{
+  list-style: none;
+}
+.col
+{
+ display: inline-flex;
+ justify-content: space-between;
+ padding: 50px;
+ 
+}
+.language-and-tools
+{
+  margin-bottom: -150px;
+}
