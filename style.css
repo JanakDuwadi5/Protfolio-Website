@@ -184,14 +184,14 @@ td
 {
   list-style: none;
 }
-.col
+ /* .col
 {
  display: inline-flex;
  justify-content: space-between;
  padding: 50px;
  
-}
+} */
 .language-and-tools
 {
-  margin-bottom: -150px;
+  margin-bottom: -250px;
 }
