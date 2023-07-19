@@ -7,6 +7,7 @@
     <title>Personal Site</title>
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Project-Section/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Montserrat:ital@1&family=Sacramento&display=swap" rel="stylesheet">
@@ -30,8 +31,51 @@
           <p class="coding">I'm a front-end web developer with a profound understanding of HTML, CSS, Bootstrap, JavaScript, and jQuery. With a passion for creating visually appealing and user-friendly websites.As an avid learner, I am currently immersed in expanding my proficiency in React, a popular JavaScript library for building interactive user interfaces. With my dedication, creativity, and ongoing commitment to professional growth, I am ready to tackle new challenges and contribute to the ever-evolving landscape of front-end web development.</p>
         </div>
         <hr>
-        
-          <header>
+            <h2>My Journey</h2>
+            <div class="timeline">
+              <div class="container left-container">
+                  <img src="images/graduation-hat.png" alt="graduation-hat">
+                  <div class="textbox">
+                      <h4>New Kibou Boarding School</h4>
+                      <small>2019</small>
+                      <p>SEE</p>
+                      <span class="left-container-arrow"></span>
+                  </div>
+              </div>
+      
+              <div class="container right-container">
+                  <img src="images/graduation-hat.png" alt="graduation-hat">
+                  <div class="textbox">
+                      <h4>National School Of Sciences</h4>
+                      <small>2020-2022</small>
+                      <p>+2</p>
+                      <span class="right-container-arrow"></span>
+                  </div>
+              </div>
+      
+              <div class="container left-container">
+                  <img src="images/graduation-hat.png" alt="graduation-hat">
+                  <div class="textbox">
+                      <h4>Amrit Science Campus</h4>
+                      <small>2022-2026</small>
+                      <p>Bachelor</p>
+                      <span class="left-container-arrow"></span>
+                  </div>
+              </div>
+      
+              <div class="container right-container">
+                  <img src="images/coder.png" alt="coder">
+                  <div class="textbox">
+                      <h4>Web Development</h4>
+                      <small>Present</small>
+                      <p>Currently Learning React</p>
+                      <span class="right-container-arrow"></span>
+                  </div>
+              </div>
+      
+      
+          </div>
+          <hr>
             <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
               <h2 class="head1">Education</h3>
                   <table class="table">
@@ -81,76 +125,34 @@
         </div>
         <hr>
         <!-- Project Section -->
-        <div class="container px-4 py-5" id="custom-card">
-          <h2 class="Latest-Works">Latest Works</h2>
-    
-          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-            <div class="col" style="display: inline-flex; padding:50px;">
-              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">To-Do-List</h3>
-                      <img src="todolist.png" alt="todolist" width="230px" height="390px" class="rounded-circle border border-white" style="border-radius: 8px;">
-                      <p><small><a href="https://janakduwaditodolist.netlify.app/">View Project</a></small></p>
-                </div>
-              </div>
-            </div>
-      
-            <div class="col" style="display: inline-flex;">
-              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Note App</h3>
-                 <img src="note.png" alt="Bootstrap" width="250px" height="390px" class="rounded-circle border border-white"style="border-radius: 8px;">
-                  <p><small><a href="">Will be hosted soon</a></small></p>
-                  </div>
-              </div>
-            </div>
-
-            <div class="col" style="display: inline-flex; padding:50px;">
-              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Expense-Tracker App</h3>
-                 <img src="expense-tracker.png" alt="Bootstrap" width="250px" height="390px" class="rounded-circle border border-white responsive-centre" style="border-radius: 8px;">
-                  <p><small><a href="">Will be hosted soon</a></small></p>
-                  </div>
-              </div>
-            </div>
+        <section id="Project">
+          <div class="project-heading">
+              <span>Lets See My Work</span>
+              <h2>My Projects</h2>
           </div>
+            <div class="project-container">
+             
+             <a href="https://janakduwaditodolist.netlify.app/" class="project-box">
+                  <img src="todolist.png" alt="">
+              </a>
+              <a href="" class="project-box">
+                  <img src="note.png" alt="">
+              </a>
+              <a href="" class="project-box">
+                  <img src="expense-tracker.png" alt="">
+              </a>
+              <a href="" class="project-box">
+                  <img src="qr_scan.png" alt="">
+              </a>
+              <a href="https://janakduwadi-simon-game.netlify.app/" class="project-box">
+                  <img src="simon-game.png" alt="">
+              </a>
+              <a href="https://janakduwadi-drumkit.netlify.app/" class="project-box">
+                  <img src="drum-kit.png" alt="">
+              </a>
           </div>
-        </div>
-              <!-- QR Code Generator -->
-            <div class="col" style="display: inline-flex;padding-right:70px; padding-left:60px;">
-              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1 ">
-                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">QR Code Generator</h3>
-                 <img src="qr_scan.png" alt="Bootstrap" width="270px" height="280px" class="rounded-circle border border-white responsive-centre">
-                  </div>
-                </div>
-              </div>
-
-              <!-- Simon-Game -->
-            <div class="col" style="display: inline-flex;padding-right:70px;padding-left:65px;">
-              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1 ">
-                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Simon-Game</h3>
-                  <img src="simon-game.png" alt="Bootstrap" width="225px" height="250px" class="rounded-circle border border-white responsive-centre" style="border-radius: 8px;">
-                      <p><small><a href="https://janakduwadi-simon-game.netlify.app/">View Project</a></small></p>
-                </div>
-              </div>
-              </div>
-
-              <!-- Drum-Kit -->
-                
-            <div class="col" style="display: inline-flex; padding-right:70px;padding-left:65px;">
-              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1 ">
-                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Drum-Kit</h3>
-                <img src="drum-kit.png" alt="Bootstrap" width="225px" height="250px" class="rounded-circle border border-white" style="border-radius: 8px;">
-                <p><small><a href="https://janakduwadi-drumkit.netlify.app/">View Project</a></small></p>
-              </div>
-              </div>
-            </div>
-            </div>
-        </div>
+      </section>
+        
         <hr>
 
         <div class="contact-me">
@@ -168,6 +170,7 @@
         <a class="footer-link" href="https://instagram.com/">Instagram</a>
         <p>© Janak Duwadi.</p>
       </div>
+      
       <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
       <script>
         var typed = new Typed('#element', {
