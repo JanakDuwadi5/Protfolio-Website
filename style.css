@@ -39,10 +39,9 @@ h3
 {
     position: absolute;
     top:50px;
-    
-
-
-    
+}
+.profile img{
+ height: 50%;
 }
 .middle-container
 {
@@ -174,7 +173,6 @@ td
   padding: 5px;
   height: 3vh;
   
-  
 }
 .me-auto
 {
@@ -240,19 +238,19 @@ td
 }
 .container:nth-child(1)
 {
-  animation-delay: 0s;
+  animation-delay: 1s;
 }
 .container:nth-child(2)
 {
-  animation-delay: 1s;
+  animation-delay: 2s;
 }
 .container:nth-child(3)
 {
-  animation-delay: 2s;
+  animation-delay: 3s;
 }
 .container:nth-child(4)
 {
-  animation-delay: 3s;
+  animation-delay: 4s;
 }
 
 .textbox
@@ -371,4 +369,9 @@ td
       left: 25px;
       
   }
+}
+.profile img{
+  width: 20%;
+  clear: left;
+  margin-left: 5px;
 }
