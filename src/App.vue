@@ -1,12 +1,19 @@
 <template>
   <Header />
   <main class="pt-20">
-    <section id="home" class="min-h-screen bg-gray-100 flex items-center justify-center">
-      <h1 class="text-4xl font-bold">Welcome Home!</h1>
-    </section>
+    <Home/>
+    <About/>
+    <Skills/>
+    <Projects/>
+    <Contact/>
   </main>
 </template>
 
 <script setup>
 import Header from './components/Header.vue'
+import Home from './components/Home.vue'
+import About from './components/About.vue'
+import Skills from './components/Skills.vue'
+import Projects from './components/Projects.vue'
+import Contact from './components/Contact.vue'
 </script>
