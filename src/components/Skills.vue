@@ -17,6 +17,6 @@ const skills = [
   "HTML", "CSS", "JavaScript",
   "Vue.js", "TailwindCSS", "Git",
   "Python", "Flask", "Django",
-  "MySQL", "PostgreSQL", "Figma"
+  "MySQL", "PostgreSQL", "PostMan"
 ]
 </script>

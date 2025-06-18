@@ -21,20 +21,31 @@
 </template>
 
 <script setup>
+import todoImg from '@/assets/to-do-app.png';
+import contactManager from '@/assets/contact-manager.png';
+import simonGame from '@/assets/simon-game.png';
+
 const projects = [
   {
     title: "To-Do-App",
-    description: "A simple Flask-based web app to manage daily tasks. Users can add, mark as done, and delete tasks through an intuitive interface. It uses RESTful APIs for backend task management and Jinja2 for dynamic HTML rendering. The UI is clean and responsive, with task input and controls aligned for easy use.",
-    image: "./components/to-do-app",
-    demo: "https://yourportfolio.com",
-    code: "https://github.com/yourusername/vue-portfolio"
+    description: "A simple Flask-based web app to manage daily tasks...",
+    image: todoImg,
+    demo: "",
+    code: ""
   },
   {
-    title: "Task Tracker",
-    description: "A basic CRUD task app using Vue and local storage.",
-    image: "https://via.placeholder.com/400x200",
+    title: "Contact Manager",
+    description: "A basic Flask-based CRUD app that lets user add ,delete, update and see contact details.",
+    image: contactManager,
     demo: "#",
     code: "#"
+  },
+  {
+    title:"Simon Game",
+    description:"Classic memory-based game recreated using JavaScript, HTML, and CSS to demonstrate DOM manipulation, event handling, and game logic skills.",
+    image:simonGame,
+    demo:'https://janakduwadi-simon-game.netlify.app/'
   }
-]
+];
+
 </script>
