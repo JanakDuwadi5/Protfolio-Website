@@ -60,7 +60,6 @@
         Building scalable backend systems
       </h1>
 
-      <!-- Typewriter subtitle -->
       <p
         class="text-base sm:text-xl md:text-2xl text-gray-600 dark:text-gray-300 min-h-[3.5rem] sm:min-h-[3rem] mb-6 sm:mb-8 px-2"
       >
